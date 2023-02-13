@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 8th Edition
+   Tutorial 4
+   Case Problem 1
+
+   Save your Fork Graphic Design Styles
+   Author: Jorge Celaya
+   Date: 2/13/2023
+
+   Filename: sf_effects.css
+
+*/
+
+/* Body Header Styles */
+/* Step 3 */
+body {
+	box-shadow: 10px 10px 50px rgb(51, 51, 51);
+}
+
+/* Navigation Tabs List Styles */
+/* Step 4 */
+body > header nav.tabs {
+	background: no-repeat center/cover url("sf_back1.png");
+}
+
+body > header nav.tabs li {
+	transform: perspective(50px) rotateX(20deg);
+}
+/* Left Section Styles */
+
+/* Center Article Styles */
+
+/* Blockquote Styles */
