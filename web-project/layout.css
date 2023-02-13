@@ -1,0 +1,112 @@
+/* General */
+img {
+	float: left;
+	width: 400px;
+	height: 300px;
+}
+
+/* Navbar */
+nav div.container {
+	justify-content: space-between;
+}
+
+ul {
+	margin: 16px 0;
+}
+
+#navbar ul h6 {
+	padding: 0 10px;
+}
+
+/* Footer */
+footer {
+	padding: 24px;
+}
+
+/* Utilities */
+.btn {
+	padding: 10px;
+}
+
+.container {
+	margin: 0 auto;
+	width: 90%;
+}
+
+.flex {
+	display: flex;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.center {
+	justify-content: center;
+	align-items: center;
+}
+
+.w-sm {
+	width: 50%;
+}
+
+.w-md {
+	width: 70%;
+}
+
+.w-80 {
+	width: 80%;
+}
+
+.m-auto {
+	margin: auto;
+}
+
+.m-10 {
+	margin: 10px;
+}
+
+.my-0 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.my-6 {
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+
+.my-10 {
+	margin-top: 16px;
+	margin-bottom: 16px;
+}
+
+.my-16 {
+	margin-top: 16px;
+	margin-bottom: 16px;
+}
+
+.mt-16 {
+	margin-top: 16px;
+}
+
+.p-16 {
+	padding: 16px;
+}
+
+.p-24 {
+	padding: 24px;
+}
+
+.p-64 {
+	padding: 64px;
+}
+
+.p-96 {
+	padding: 96px;
+}
+
+.px-24 {
+	padding-left: 24px;
+	padding-right: 24px;
+}
