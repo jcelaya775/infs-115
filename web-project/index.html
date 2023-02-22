@@ -1,76 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<!--
+
+<head>
+	<!--
 		Author: Jorge Celaya
     Date:
 
     Filename: index.html
 		-->
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="reset.css" />
-		<link rel="stylesheet" href="layout.css" />
-		<link rel="stylesheet" href="styles.css" />
-		<title>Web Project</title>
-	</head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="layout.css">
+	<link rel="stylesheet" href="styles.css">
+	<title>Web Project</title>
+</head>
 
-	<body>
-		<nav class="shadow-sm">
-			<div id="navbar" class="flex container">
-				<div class="flex center">
-					<h5>Quest</h5>
-				</div>
-				<ul class="flex center">
-					<li>
-						<a href="index.html"><h6>Home</h6></a>
-					</li>
-					<li>
-						<a href="about.html"><h6>Blogs</h6></a>
-					</li>
-					<li>
-						<a href="gallery.html"><h6>Gallery</h6></a>
-					</li>
-				</ul>
+<body>
+	<nav class="shadow-sm">
+		<div id="navbar" class="flex container">
+			<div class="flex center">
+				<h5>Quest</h5>
 			</div>
-		</nav>
+			<ul class="flex center">
+				<li>
+					<a href="index.html">
+						<h6>Home</h6>
+					</a>
+				</li>
+				<li>
+					<a href="about.html">
+						<h6>Blogs</h6>
+					</a>
+				</li>
+				<li>
+					<a href="gallery.html">
+						<h6>Gallery</h6>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
 
-		<section class="hero p-96 shadow-sm">
-			<div class="container text-center">
-				<h4>Discover New Things</h4>
-				<p class="my-6">Ready to expand your horizons?</p>
-				<button class="btn shadow-sm">
-					<a href="gallery.html">See More</a>
-				</button>
+	<section class="hero p-96 shadow-sm">
+		<div class="container text-center">
+			<h4>Discover New Things</h4>
+			<p class="my-6">Ready to expand your horizons?</p>
+			<button class="btn shadow-sm" onclick="window.location.href='gallery.html';">
+				See More
+			</button>
+		</div>
+	</section>
+
+	<section class="container p-64 w-80">
+		<div class="flex flex-wrap text-center w-80 my-16 m-auto">
+			<div>
+				<img class="rounded shadow-lg" src="images/mountains.jpg" alt="Mountains">
 			</div>
-		</section>
 
-		<section class="container p-64 w-80">
-			<div class="flex text-center w-80 my-16 m-auto">
-				<div>
-					<img
-						class="rounded shadow-lg"
-						src="images/mountains.jpg"
-						alt="Mountains"
-					/>
-				</div>
-
-				<div class="flex text-center center">
-					<p class="text-center px-24 w-md">
-						<em>
-							Whether you are a casual hiker or a travel connoisseur, we are
-							dedicated to connecting you with other travelling enthusiasts and
-							sharing your expeiences! Connect with other traveling enthusiasts
-							and share your experiences. What's your next destination?
-						</em>
-					</p>
-				</div>
+			<div class="flex text-center center">
+				<p class="text-center px-25 w-md">
+					<em>
+						Whether you are a casual hiker or a travel connoisseur, we are
+						dedicated to connecting you with other travelling enthusiasts and
+						sharing your expeiences! Connect with other traveling enthusiasts
+						and share your experiences. What's your next destination?
+					</em>
+				</p>
 			</div>
-		</section>
+		</div>
+	</section>
 
-		<footer class="text-center shadow-lg">
-			<h5>Thanks for visiting!</h5>
-		</footer>
-	</body>
+	<footer class="text-center shadow-lg">
+		<h5>Thanks for visiting!</h5>
+	</footer>
+</body>
+
 </html>

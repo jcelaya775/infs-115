@@ -16,6 +16,7 @@ ul {
 
 #navbar ul h6 {
 	padding: 0 10px;
+	width: 100%;
 }
 
 /* Footer */
@@ -37,14 +38,18 @@ footer {
 	display: flex;
 }
 
+.flex-wrap {
+	flex: 2 1 100px;
+	flex-wrap: wrap;
+}
+
 .gallery {
 	display: grid;
 	gap: 2em;
-	grid-template-columns: repeat(3, 1fr);
-	/* grid-column: span 1; */
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 
 	padding-block: 2rem;
-	width: min(95%, 70rem);
+	width: 100%;
 	margin-inline: auto;
 }
 
@@ -134,4 +139,13 @@ footer {
 
 .pt-32 {
 	padding-top: 32px;
+}
+
+.pt-64 {
+	padding-top: 64px;
+}
+
+.py-64 {
+	padding-top: 64px;
+	padding-bottom: 64px;
 }
