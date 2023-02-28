@@ -28,6 +28,13 @@ table {
 	font-size: 1.2rem;
 }
 
+caption {
+	font-family: "Poppins", sans-serif;
+	font-size: 1.8rem;
+	font-weight: bold;
+	margin-bottom: 16px;
+}
+
 th,
 td {
 	width: 5%;
@@ -39,22 +46,26 @@ th {
 	text-align: center;
 }
 
-td: nth-of-type(2) {
-	width: 50%;
+td:nth-of-type(2) {
+	width: 40%;
 }
 
 tr:nth-of-type(odd) {
 	background: #f0edebde;
 }
 
-tr:nth-of-type(1) {
-	vertical-align: top;
-	background: #d87634c4;
-	color: #e6e6e6ff;
+thead th {
+	background: #d87634fd;
+	color: #efefef;
 	font-weight: bold;
 }
 
+td:nth-of-type(3) {
+	text-align: center;
+}
+
 /* Footer */
+
 footer {
 	padding: 24px;
 }
