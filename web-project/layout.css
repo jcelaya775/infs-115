@@ -19,6 +19,41 @@ ul {
 	width: 100%;
 }
 
+/* Table */
+table {
+	border-collapse: collapse;
+	width: 80%;
+	margin: 0 auto;
+	padding: 0 16px;
+	font-size: 1.2rem;
+}
+
+th,
+td {
+	width: 5%;
+	padding: 16px;
+	border: 1px solid #ddd;
+}
+
+th {
+	text-align: center;
+}
+
+td: nth-of-type(2) {
+	width: 50%;
+}
+
+tr:nth-of-type(odd) {
+	background: #f0f0f0de;
+}
+
+tr:nth-of-type(1) {
+	vertical-align: top;
+	background: #444c53;
+	color: white;
+	font-weight: bold;
+}
+
 /* Footer */
 footer {
 	padding: 24px;
@@ -112,6 +147,14 @@ footer {
 	margin-top: 16px;
 }
 
+.mt-32 {
+	margin-top: 32px;
+}
+
+.mt-64 {
+	margin-top: 64px;
+}
+
 .p-16 {
 	padding: 16px;
 }
@@ -143,6 +186,11 @@ footer {
 
 .pt-64 {
 	padding-top: 64px;
+}
+
+.py-32 {
+	padding-top: 32px;
+	padding-bottom: 32px;
 }
 
 .py-64 {
