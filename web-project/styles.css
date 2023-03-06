@@ -80,6 +80,33 @@ table {
 	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
+/* Form */
+.contact {
+	font-size: 1.2rem;
+	background-color: var(--blueish);
+	border-radius: 15px;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.contact input,
+.contact textarea,
+.contact select {
+	font-size: 1rem;
+	font-family: "Poppins", sans-serif;
+	border: none;
+	border-radius: 6px;
+}
+
+.contact input:focus,
+.contact textarea:focus,
+.contact select:focus {
+	outline: none;
+}
+
+fieldset {
+	border: none;
+}
+
 /* Footer */
 footer {
 	background: var(--dark);
@@ -143,4 +170,16 @@ footer p {
 
 .underline {
 	text-decoration: underline;
+}
+
+.font-medium {
+	font-weight: 500;
+}
+
+.font-semibold {
+	font-weight: 600;
+}
+
+.font-bold {
+	font-weight: 700;
 }

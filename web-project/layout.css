@@ -61,11 +61,34 @@ thead th {
 }
 
 td:nth-of-type(3) {
-	text-align: center;
+	text-align: center;j
+}
+
+/* Form */
+.contact {
+	box-sizing: border-box;
+	padding: 2rem;
+}
+
+.contact input,
+.contact textarea,
+.contact select {
+	font-size: 1rem;
+	padding: 10px 8px;
+	display: block;
+	justify-content: center;
+	align-items: center;
+	width: calc(100% - 16px);
+}
+
+.contact textarea {
+	min-width: 500px;
+	min-height: 200px;
+	max-width: 800px;
+	max-height: 400px;
 }
 
 /* Footer */
-
 footer {
 	padding: 24px;
 }
@@ -80,8 +103,20 @@ footer {
 	width: 90%;
 }
 
+.inline-block {
+	display: inline-block;
+}
+
+.block {
+	display: block;
+}
+
 .flex {
 	display: flex;
+}
+
+.flex-col {
+	flex-direction: column;
 }
 
 .flex-wrap {
@@ -170,6 +205,10 @@ mb-8 {
 	margin-bottom: 8px;
 }
 
+mb-16 {
+	margin-bottom: 16px;
+}
+
 .p-16 {
 	padding: 16px;
 }
@@ -205,6 +244,10 @@ mb-8 {
 
 .pb-8 {
 	padding-bottom: 8px;
+}
+
+.pb-16 {
+	padding-bottom: 16px;
 }
 
 .py-32 {
