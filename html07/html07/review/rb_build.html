@@ -20,6 +20,8 @@
    <title>Red Ball Pizza Build a Pizza</title>
    <link href="rb_base.css" rel="stylesheet" />
    <link href="rb_styles2.css" rel="stylesheet" />
+   <link rel="stylesheet" href="rb_forms2.css">
+   <link rel="stylesheet" href="rb_validate.css">
    <script src="rb_formsubmit2.js"></script>
 </head>
 
@@ -47,8 +49,31 @@
       <form action="http://www.example.com/redball/customer" method="post">
          <div>
             <label for="nameBox">Name</label>
-            <input type="text" name="custName" id="nameBox">
+            <input type="text" name="custName" id="nameBox" placeholder="First and Last name" required>
          </div>
+         <!-- step 6 -->
+         <div>
+            <label for="phoneBox">Phone</label>
+            <input type="tel" name="custPhone" id="phoneBox" placeholder="(000) 000-0000" required
+               pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$">
+         </div>
+         <div>
+            <label for="delivery">Delivery</label>
+            <input type="radio" name="orderType" id="delivery">
+            <label for="pickup">Pickup</label>
+            <input type="radio" name="orderType" id="pickup">
+         </div>
+         <!-- step 8 -->
+         <fieldset id="deliveryInfo">
+            <legend>Delivery Options</legend>
+            <div>
+               <label for="delBox">Delivery Time (leave blank for earliest delivery)</label>
+               <input type="time" name="delTime">
+            </div>
+            <div>
+               <input type="submit" value="Begin Building your Order">
+            </div>
+         </fieldset>
       </form>
    </section>
 
