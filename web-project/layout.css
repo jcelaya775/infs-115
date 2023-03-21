@@ -5,6 +5,21 @@ img {
 	height: 300px;
 }
 
+section#hero {
+	z-index: -1;
+	position: relative;
+	color: white;
+}
+
+video#mainVideo {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+	z-index: -10;
+}
+
 /* Navbar */
 nav div.container {
 	justify-content: space-between;
@@ -269,4 +284,8 @@ mb-16 {
 .py-64 {
 	padding-top: 64px;
 	padding-bottom: 64px;
+}
+
+.z-1 {
+	z-index: 1;
 }

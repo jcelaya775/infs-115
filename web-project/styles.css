@@ -5,7 +5,7 @@
 :root {
 	--dark: #303236;
 	--light: #ffffff;
-	--clear: rgba(111, 161, 180, 0.428);
+	--clear: rgb(111, 161, 180);
 	--gray: #0e1620;
 	--orange: #e4612e;
 	--blueish: #f0f0f0;
@@ -33,11 +33,12 @@ p {
 
 /* Navbar */
 nav {
+	/* background: white; */
 	/* background: var(--clear); */
 	background: linear-gradient(
 		60deg,
 		rgba(255, 115, 0, 0.74) 10%,
-		var(--clear) 40%
+		rgba(143, 208, 252, 0.8) 40%
 	);
 }
 
@@ -182,4 +183,8 @@ footer p {
 
 .font-bold {
 	font-weight: 700;
+}
+
+.text-white {
+	color: #eeeeee;
 }
