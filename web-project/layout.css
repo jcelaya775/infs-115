@@ -48,7 +48,7 @@ ul {
   display: none;
 }
 
-#burgerBar {
+.burgerBar {
   width: 36px;
   height: 5px;
   background-color: #333;
