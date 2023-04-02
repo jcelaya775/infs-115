@@ -2,118 +2,124 @@
 <html lang="en">
 
 <head>
-	<!--
+  <!--
 		Author: Jorge Celaya
     Date:
 
     Filename: info.html
 		-->
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="reset.css">
-	<link rel="stylesheet" href="layout.css">
-	<link rel="stylesheet" href="styles.css">
-	<title>Web Project</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="layout.css">
+  <link rel="stylesheet" href="styles.css">
+  <title>Web Project</title>
 </head>
 
 <body>
-	<nav class="shadow-sm">
-		<div id="navbar" class="flex container">
-			<div class="flex center">
-				<h5>Quest</h5>
-			</div>
-			<ul class="flex center">
-				<li>
-					<a href="index.html">
-						<h6>Home</h6>
-					</a>
-				</li>
-				<li>
-					<a href="gallery.html">
-						<h6>Gallery</h6>
-					</a>
-				</li>
-				<li>
-					<a href="info.html">
-						<h6>info</h6>
-					</a>
-				</li>
-				<li>
-					<a href="contact.html">
-						<h6>Contact</h6>
-					</a>
-				</li>
-			</ul>
-		</div>
-	</nav>
+  <nav class="shadow-sm z-top">
+    <div id="navbar" class="flex container">
+      <div class="flex center">
+        <h5>Quest</h5>
+      </div>
+      <ul class="flex center">
+        <div id="burgerMenu">
+          <div id="burgerBar"></div>
+          <div id="burgerBar"></div>
+          <div id="burgerBar"></div>
+        </div>
+        <li>
+          <a href="index.html">
+            <h6>Home</h6>
+          </a>
+        </li>
+        <li>
+          <a href="gallery.html">
+            <h6>Gallery</h6>
+          </a>
+        </li>
+        <li>
+          <a href="info.html">
+            <h6>info</h6>
+          </a>
+        </li>
+        <li>
+          <a href="contact.html">
+            <h6>Contact</h6>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
-	<div class="py-32">
-		<table class="mt-16">
-			<caption>Upcoming Events</caption>
-			<thead>
-				<tr>
-					<th>Event</th>
-					<th>Description</th>
-					<th>Times</th>
-				</tr>
-			</thead>
+  <!-- TODO: Make scrollable on small screens -->
+  <div class="container py-32">
+    <table class="mt-16">
+      <caption>Upcoming Events</caption>
+      <thead>
+        <tr>
+          <th>Event</th>
+          <th>Description</th>
+          <th>Times</th>
+        </tr>
+      </thead>
 
-			<tbody>
-				<tr>
-					<td>The Great European Adventure</td>
-					<td>
-						A 10-day tour of Europe's most iconic destinations, including Paris, Rome, Barcelona, and Amsterdam. This
-						tour includes all transportation, accommodations, and activities, and is perfect for first-time visitors to
-						Europe.
-					</td>
-					<td rowspan="3">TBA</td>
-				</tr>
-				<tr>
-					<td>Tropical Island Escape</td>
-					<td>A week-long trip to a remote, tropical island paradise. This package includes a private villa, all meals,
-						and a range of activities such as snorkeling, hiking, and spa treatments.</td>
-				</tr>
-				<tr>
-					<td>Ancient Wonders of the World</td>
-					<td>A two-week tour of some of the world's most impressive ancient sites, including the Pyramids of Giza,
-						Machu Picchu, and the Colosseum in Rome. This tour includes expert guides and plenty of free time to explore
-						on your own.</td>
-				</tr>
-				<tr>
-					<td>Foodie Heaven</td>
-					<td>A culinary tour of some of the world's most famous food destinations, including Tokyo, New Orleans, and
-						Barcelona. This trip includes cooking classes, food tours, and lots of delicious meals.</td>
-					<td rowspan="3">TBA</td>
-				</tr>
-				<tr>
-					<td>Road Trip USA</td>
-					<td>A classic American road trip, taking you through some of the country's most iconic destinations such as
-						Route 66, the Grand Canyon, and New York City. This package includes a rental car, accommodations, and
-						plenty of roadside attractions.</td>
-				</tr>
-				<tr>
-					<td>International Food Festival</td>
-					<td>
-						A weekend-long event featuring cuisines from around the world. Attendees can try food from different
-						countries, watch cooking demonstrations, and learn about the cultural significance of various dishes.
-					</td>
-				</tr>
-				<tr>
-					<td>Adventure Tour</td>
-					<td>
-						A multi-day tour that takes travelers on a thrilling adventure through the wilderness. Activities may
-						include hiking, kayaking, rock climbing, and camping in the great outdoors.
-					</td>
-					<td>TBA</td>
-				</tr>
-			</tbody>
-		</table>
-	</div>
+      <tbody>
+        <tr>
+          <td>The Great European Adventure</td>
+          <td>
+            A 10-day tour of Europe's most iconic destinations, including Paris, Rome, Barcelona, and Amsterdam. This
+            tour includes all transportation, accommodations, and activities, and is perfect for first-time visitors to
+            Europe.
+          </td>
+          <td rowspan="3">TBA</td>
+        </tr>
+        <tr>
+          <td>Tropical Island Escape</td>
+          <td>A week-long trip to a remote, tropical island paradise. This package includes a private villa, all meals,
+            and a range of activities such as snorkeling, hiking, and spa treatments.</td>
+        </tr>
+        <tr>
+          <td>Ancient Wonders of the World</td>
+          <td>A two-week tour of some of the world's most impressive ancient sites, including the Pyramids of Giza,
+            Machu Picchu, and the Colosseum in Rome. This tour includes expert guides and plenty of free time to explore
+            on your own.</td>
+        </tr>
+        <tr>
+          <td>Foodie Heaven</td>
+          <td>A culinary tour of some of the world's most famous food destinations, including Tokyo, New Orleans, and
+            Barcelona. This trip includes cooking classes, food tours, and lots of delicious meals.</td>
+          <td rowspan="3">TBA</td>
+        </tr>
+        <tr>
+          <td>Road Trip USA</td>
+          <td>A classic American road trip, taking you through some of the country's most iconic destinations such as
+            Route 66, the Grand Canyon, and New York City. This package includes a rental car, accommodations, and
+            plenty of roadside attractions.</td>
+        </tr>
+        <tr>
+          <td>International Food Festival</td>
+          <td>
+            A weekend-long event featuring cuisines from around the world. Attendees can try food from different
+            countries, watch cooking demonstrations, and learn about the cultural significance of various dishes.
+          </td>
+        </tr>
+        <tr>
+          <td>Adventure Tour</td>
+          <td>
+            A multi-day tour that takes travelers on a thrilling adventure through the wilderness. Activities may
+            include hiking, kayaking, rock climbing, and camping in the great outdoors.
+          </td>
+          <td>TBA</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
 
-	<footer class="text-center shadow-around-lg mt-16">
-		<h5>Footer</h5>
-	</footer>
+  <footer class="text-center shadow-around-lg mt-16">
+    <h5>Footer</h5>
+  </footer>
 </body>
 
 </html>

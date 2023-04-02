@@ -2,92 +2,97 @@
 <html lang="en">
 
 <head>
-	<!--
+  <!--
 		Author: Jorge Celaya
     Date:
 
     Filename: index.html
 		-->
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="reset.css">
-	<link rel="stylesheet" href="layout.css">
-	<link rel="stylesheet" href="styles.css">
-	<title>Web Project</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="layout.css">
+  <link rel="stylesheet" href="styles.css">
+  <title>Web Project</title>
 </head>
 
 <body>
-	<nav class="shadow-sm z-1">
-		<div id="navbar" class="flex container">
-			<div class="flex center">
-				<h5>Quest</h5>
-			</div>
-			<ul class="flex center">
-				<li>
-					<a href="index.html">
-						<h6>Home</h6>
-					</a>
-				</li>
-				<li>
-					<a href="gallery.html">
-						<h6>Gallery</h6>
-					</a>
-				</li>
-				<li>
-					<a href="info.html">
-						<h6>info</h6>
-					</a>
-				</li>
-				<li>
-					<a href="contact.html">
-						<h6>Contact</h6>
-					</a>
-				</li>
-			</ul>
-		</div>
-	</nav>
+  <nav class="shadow-sm z-top">
+    <div id="navbar" class="flex container">
+      <div class="flex center">
+        <h5>Quest</h5>
+      </div>
+      <ul class="flex center">
+        <div id="burgerMenu">
+          <div id="burgerBar"></div>
+          <div id="burgerBar"></div>
+          <div id="burgerBar"></div>
+        </div>
+        <li>
+          <a href="index.html">
+            <h6>Home</h6>
+          </a>
+        </li>
+        <li>
+          <a href="gallery.html">
+            <h6>Gallery</h6>
+          </a>
+        </li>
+        <li>
+          <a href="info.html">
+            <h6>info</h6>
+          </a>
+        </li>
+        <li>
+          <a href="contact.html">
+            <h6>Contact</h6>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
-	<section class="hero p-96 shadow-sm" id="hero">
-		<div class="container text-center">
-			<h4 class="text-white">Discover New Things</h4>
-			<video autoplay muted loop id="mainVideo">
-				<source src="mountains.mp4" type="video/mp4">
-			</video>
-			<p class="my-6 text-white">Ready to expand your horizons?</p>
-			<button class="btn shadow-sm" onclick="window.location.href='gallery.html';">
-				See More
-			</button>
-		</div>
-	</section>
+  <section class="hero p-96 shadow-sm" id="hero">
+    <div class="container text-center">
+      <h4 class="text-white">Discover New Things</h4>
+      <video autoplay muted loop id="mainVideo">
+        <source src="mountains.mp4" type="video/mp4">
+      </video>
+      <p class="my-6 text-white">Ready to expand your horizons?</p>
+      <button class="btn shadow-sm" onclick="window.location.href='gallery.html';">
+        See More
+      </button>
+    </div>
+  </section>
 
-	<div class="container p-64 w-80">
-		<div class="flex text-center w-80 my-16 m-auto">
-			<div>
-				<img class="rounded shadow-lg"
-					src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
-					alt="Mountains">
-				<audio controls class="pt-32">
-					<source src="breeze.mp3">
-				</audio>
-			</div>
+  <div class="container" id="main">
+    <div class="flex flex-wrap center text-center my-16 m-auto">
+      <div class="flex flex-col center mt-16">
+        <img class="rounded shadow-lg" id="mainImage"
+          src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+          alt="Mountains">
+        <audio controls>
+          <source src="breeze.mp3">
+        </audio>
+      </div>
 
-			<div class="flex text-center center">
-				<p class="text-center px-25 w-md">
-					<em>
-						Whether you are a casual hiker or a travel connoisseur, we are
-						dedicated to connecting you with other travelling enthusiasts and
-						sharing your expeiences! Connect with other traveling enthusiasts
-						and share your experiences. What's your next destination?
-					</em>
-				</p>
-			</div>
-		</div>
-	</div>
+      <!-- <div class="my-16"> -->
+      <p class="text-center">
+        <em>
+          Whether you are a casual hiker or a travel connoisseur,
+          join a community of like-minded adventurers who seek out the unexplored and embrace the unexpected. Discover
+          new destinations, cultures, and experiences, all while gaining the inspiration and resources to plan your own
+          extraordinary journeys. The world is waiting - are you ready to explore it?
+        </em>
+      </p>
+      <!-- </div> -->
+    </div>
+  </div>
 
-	<footer class="text-center shadow-lg">
-		<h5>Thanks for visiting!</h5>
-	</footer>
+  <footer class="text-center shadow-around-lg">
+    <h5>Thanks for visiting!</h5>
+  </footer>
 </body>
 
 </html>
