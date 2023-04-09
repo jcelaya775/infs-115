@@ -30,6 +30,10 @@ nav div.container {
   justify-content: space-between;
 }
 
+#navbar {
+  position: relative;
+}
+
 ul {
   margin: 16px 0;
 }
@@ -46,6 +50,9 @@ ul {
 
 #burgerMenu {
   display: none;
+  position: absolute;
+  right: 0;
+  cursor: pointer;
 }
 
 .burgerBar {
@@ -54,7 +61,6 @@ ul {
   background-color: #333;
   margin: 4px 0;
   border-radius: 5px;
-  mouse: pointer;
 }
 
 /* Main Content (home page) */
