@@ -1,5 +1,7 @@
 ﻿@charset "utf-8";
 @import url("cw_layout.css");
+/* Pg. 173 step 5 */
+/* Pg. 173 step 6 */
 
 /*
    New Perspectives on HTML5 and CSS3, 8th Edition
@@ -15,121 +17,146 @@
 */
 
 /* Structural Styles */
+/* Pg. 173 step 7 */
 html {
-	background-color: rgb(151, 151, 151);
+  background-color: rgb(151, 151, 151);
 }
 
+/* Pg. 173 step 8 */
 body {
-	background-color: rgb(180, 180, 1223);
-	font-family: Verdana, Geneva, sans-serif;
+  background-color: rgb(180, 180, 223);
+  font-family: Verdana, Geneva, sans-serif;
 }
 
-footer {
-	color: white;
-	background-color: rgb(101, 101, 101);
-	font-size: 0.8em;
-	text-align: center;
-	padding: 1px 0;
-}
-
+/* Pg. 173 step 9 */
 h1,
 h2 {
-	font-weight: normal;
+  font-weight: normal;
 }
 
+/* Pg. 173 step 10 */
 nav a {
-	text-decoration: none;
+  text-decoration: none;
+}
+
+/* Pg. 173 step 11 */
+footer {
+  color: white;
+  background-color: rgb(101, 101, 101);
+  font-size: 0.8em;
+  text-align: center;
+  padding: 1px 0;
 }
 
 /* Body Header Styles */
+/* Pg. 173 step 12 */
 body > header {
-	background-color: rgba(97, 97, 211);
+  background-color: rgba(97, 97, 211);
 }
 
+/* Pg. 173 step 13 */
 body > header > h1 {
-	font-size: 4vw;
-	color: rgba(255, 255, 255, 0.8);
-	font-family: Limelight, cursive;
-	margin: 0;
+  font-size: 4vw;
+  color: rgba(255, 255, 255, 0.8);
+  padding: 10px 20px;
+  font-family: Limelight, cursive;
+  margin: 0;
 }
 
+/* Pg. 173 step 14 */
 body > header > h1 > span {
-	color: rgba(255, 255, 255, 0.4);
+  color: rgba(255, 255, 255, 0.4);
 }
 
 /* Navigation Styles */
-nav#mainLinks {
-	padding: 5px 0;
+/* Pg. 173 step 15 */
+#mainLinks {
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
-nav#mainLinks a:visited,
-nav#mainLinks a {
-	color: white;
+/* Pg. 173 step 16 */
+#mainLinks a:visited,
+#mainLinks a {
+  color: white;
 }
 
-nav#mainLinks a:hover,
-nav#mainLinks a:active {
-	opacity: 0.8;
-	color: rgba(51, 51, 51, 0.5);
+/* Pg. 173 step 17 */
+#mainLinks a:hover,
+#mainLinks a:active {
+  opacity: 0.8;
+  color: rgba(51, 51, 51, 0.8);
 }
 
 /* Outline Styles */
-nav#outline a {
-	color: rgb(51, 51, 51);
-	font-size: 0.8em;
+/* Pg. 173 step 18 */
+#outline a {
+  color: rgb(51, 51, 51);
+  font-size: 0.8em;
 }
 
-nav#outline h1 {
-	text-align: center;
+/* Pg. 173 step 19 */
+#outline h1 {
+  text-align: center;
 }
 
-nav#outline ol {
-	line-height: 2em;
-	margin: 0 5px;
-	list-style-type: upper-roman;
+/* Pg. 173 step 20 */
+#outline ol {
+  line-height: 2em;
+  margin: 0 5px;
+  list-style-type: upper-roman;
 }
 
-nav#outline ol ol {
-	list-style-type: upper-alpha;
+/* Pg. 173 step 21 */
+#outline ol ol {
+  list-style-type: upper-alpha;
 }
 
-nav#outline a:visited,
-nav#outline a {
-	color: rgb(101, 101, 101);
+/* Pg. 173 step 22 */
+#outline a:visited,
+#outline a {
+  color: rgb(101, 101, 101);
 }
 
-nav#outline a:hover,
-nav#outline a:active {
-	color: rgb(97, 97, 211);
-	text-decoration: underline;
+/* Pg. 173 step 23 */
+#outline a:hover,
+#outline a:active {
+  color: rgb(97, 97, 211);
+  text-decoration: underline;
 }
 
 /* Section Styles */
+/* Pg. 173 step 24 */
 section {
-	background-color: rgb(220, 220, 220);
+  background-color: rgb(220, 220, 220);
 }
 
+/* Pg. 173 step 25 */
 section header h1 {
-	font-size: 2.2em;
-	padding-left: 10px;
+  font-size: 2.2em;
+  padding-left: 10px;
 }
 
 /* Article Styles */
+/* Pg. 173 step 26 */
 article h2 {
-	font-size: 1.4em;
+  font-size: 1.4em;
 }
 
-article p:first-of-type:first-letter {
-	font-size: 2em;
-	vertical-align: baseline;
+/* Pg. 173 step 27 */
+article p:first-of-type::first-letter {
+  font-size: 2em;
+  vertical-align: baseline;
 }
 
 /* Aside Styles */
+/* Pg. 173 step 28 */
 aside {
-	font-size: 0.9em;
+  font-size: 0.9em;
 }
 
+/* Pg. 173 step 29 */
 aside h1 {
-	font-size: 1.4em;
-	text-align: center;
+  font-size: 1.4em;
+  text-align: center;
 }
