@@ -13,10 +13,14 @@ img {
   height: 300px;
 }
 
+.container p {
+  font-size: 1rem;
+  overflow: hidden;
+}
+
 section#hero {
   z-index: 0;
   position: relative;
-  color: white;
 }
 
 video#mainVideo {
@@ -214,6 +218,10 @@ footer {
   flex-wrap: wrap;
 }
 
+.flex-end {
+  justify-content: flex-end;
+}
+
 .center {
   justify-content: center;
   align-items: center;
@@ -396,13 +404,13 @@ mb-16 {
 }
 
 @media screen and (max-width: 584px) {
-  #navbar h6 {
+  /* #navbar h6 {
     display: none;
-  }
+  } */
 
-  #burgerMenu {
+  /* #burgerMenu {
     display: block;
-  }
+  } */
 
   #mainImage {
     width: 250px;
